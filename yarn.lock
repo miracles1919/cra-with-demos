@@ -2440,10 +2440,10 @@ antd-mobile-v5-count@^1.0.1:
   resolved "https://registry.yarnpkg.com/antd-mobile-v5-count/-/antd-mobile-v5-count-1.0.1.tgz#85f20c46d1635c24e856bcf5ad55e8c98e44a523"
   integrity sha512-YGsiEDCPUDz3SzfXi6gLZn/HpeSMW+jgPc4qiYUr1fSopg3hkUie2TnooJdExgfiETHefH3Ggs58He0OVfegLA==
 
-antd-mobile@^5.7.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/antd-mobile/-/antd-mobile-5.7.2.tgz#61ed886e279cdb747bc3237b4d9cacc14b2272b3"
-  integrity sha512-WlkXC7PUWVQkFroaFZZx3Kun7NKZ3QfHriCvDt+XCYj9d6ciwKVw9n+ZvEJu49U9tTEm1UjXaKdLNMCgWpjSsw==
+antd-mobile@^5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/antd-mobile/-/antd-mobile-5.8.0.tgz#70393fefdb35debe0958793fabaaaf17940bd794"
+  integrity sha512-uXrC0RAirXJsGc73Ej3S//E/CefXFTMREerv27kxqAjg+ftuZIvr3P5bE9ozZZWn8+3U0GGkcFobYfhBd+z7sA==
   dependencies:
     "@floating-ui/dom" "^0.3.1"
     "@react-spring/web" "^9.4.3"
