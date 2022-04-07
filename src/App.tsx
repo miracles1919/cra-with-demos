@@ -13,10 +13,6 @@ const links = [
     path: '/form/demo1',
     name: 'form demo1',
   },
-  {
-    path: '/form/demo2',
-    name: 'form demo2',
-  },
 ];
 
 function App() {
