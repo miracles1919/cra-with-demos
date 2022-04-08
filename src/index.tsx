@@ -12,7 +12,6 @@ import Modal1 from './components/modal/demos/demo1';
 
 const container = document.getElementById('root') as HTMLElement;
 const root = createRoot(container);
-console.log('root', root)
 root.render(
   <React.StrictMode>
     <BrowserRouter>
