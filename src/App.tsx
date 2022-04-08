@@ -15,6 +15,14 @@ const links = [
     path: '/toast/demo1',
     name: 'toast demo1',
   },
+  {
+    path: '/picker/demo1',
+    name: 'picker demo1',
+  },
+  {
+    path: '/modal/demo1',
+    name: 'modal demo1',
+  },
 ];
 
 function App() {
