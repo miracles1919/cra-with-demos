@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Popover, Button } from 'antd-mobile';
+import { Popover, Button } from 'antd-mobile-with-react18';
 import { DemoBlock } from '../../../demos';
-import { PopoverProps } from 'antd-mobile/es/components/popover';
-// const { offset } = require('./floating-ui')
-const core = require('@floating-ui/core')
-// import core from '@floating-ui/core'
-
-console.log('demo', core)
+import { PopoverProps } from 'antd-mobile-with-react18/es/components/popover';
 
 export default () => {
   const [placement, setPlacement] =

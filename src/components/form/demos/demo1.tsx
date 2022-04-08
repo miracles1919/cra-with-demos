@@ -10,7 +10,7 @@ import {
   Slider,
   Stepper,
   Switch,
-} from 'antd-mobile'
+} from 'antd-mobile-with-react18'
 import dayjs from 'dayjs'
 
 export default () => {
@@ -33,7 +33,7 @@ export default () => {
           </Button>
         }
       >
-        <Form.Header>基础用法</Form.Header>
+        {/* <Form.Header>基础用法</Form.Header> */}
         <Form.Item name='name' label='姓名' rules={[{ required: true }]}>
           <Input placeholder='请输入姓名' />
         </Form.Item>
@@ -100,7 +100,7 @@ export default () => {
           </Button>
         }
       >
-        <Form.Header>水平布局</Form.Header>
+        {/* <Form.Header>水平布局</Form.Header> */}
         <Form.Item
           name='name'
           label='姓名'
