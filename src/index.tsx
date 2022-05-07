@@ -9,6 +9,7 @@ import Form1 from './components/form/demos/demo1';
 import Toast1 from './components/toast/demos/demo1';
 import Picker1 from './components/picker/demos/demo1';
 import Modal1 from './components/modal/demos/demo1';
+import ActionSheet1 from './components/action-sheet/demos/demo1';
 
 const container = document.getElementById('root') as HTMLElement;
 const root = createRoot(container);
@@ -31,6 +32,9 @@ root.render(
           </Route>
           <Route path='modal'>
             <Route path='demo1' element={<Modal1 />} />
+          </Route>
+          <Route path='action-sheet'>
+            <Route path='demo1' element={<ActionSheet1 />} />
           </Route>
         </Route>
       </Routes>

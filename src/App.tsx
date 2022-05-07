@@ -1,4 +1,3 @@
-import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +21,10 @@ const links = [
   {
     path: '/modal/demo1',
     name: 'modal demo1',
+  },
+  {
+    path: '/action-sheet/demo1',
+    name: 'action-sheet demo1',
   },
 ];
 
