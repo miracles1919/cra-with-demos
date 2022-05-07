@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Picker, Button, Space, Toast } from 'antd-mobile-with-react18';
-import { reactRender } from 'antd-mobile-with-react18/es/utils/compatible';
+import { useState } from 'react';
+import { Picker, Button, Toast } from 'antd-mobile-with-react18';
 import { DemoBlock } from '../../../demos';
 import { basicColumns } from './columns-data';
 
@@ -12,11 +11,7 @@ function BasicDemo() {
     <>
       <Button
         onClick={() => {
-          // setVisible(true);
-          reactRender(
-            <div>111</div>,
-            document.getElementById('root') as HTMLElement
-          );
+          setVisible(true);
         }}
       >
         选择

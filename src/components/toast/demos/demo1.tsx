@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
+import { FC, useEffect, useRef, useState } from 'react';
 import { Button, Space, Toast } from 'antd-mobile-with-react18';
 import { DemoBlock } from '../../../demos';
 import { UploadOutline } from 'antd-mobile-icons';
@@ -11,14 +11,14 @@ export default () => {
     <>
       <DemoBlock title='基础用法'>
         <Button
-          onClick={() =>
+          onClick={() => {
             Toast.show({
               content: 'Hello World',
               afterClose: () => {
                 console.log('after');
               },
-            })
-          }
+            });
+          }}
         >
           轻提示
         </Button>
@@ -27,12 +27,12 @@ export default () => {
       <DemoBlock title='图标'>
         <Space wrap>
           <Button
-            onClick={() =>
+            onClick={() => {
               Toast.show({
                 icon: 'success',
                 content: '保存成功',
-              })
-            }
+              });
+            }}
           >
             成功
           </Button>
