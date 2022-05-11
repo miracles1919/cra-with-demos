@@ -10,7 +10,7 @@ import {
   Slider,
   Stepper,
   Switch,
-} from 'antd-mobile-with-react18'
+} from 'antd-mobile'
 import dayjs from 'dayjs'
 
 export default () => {

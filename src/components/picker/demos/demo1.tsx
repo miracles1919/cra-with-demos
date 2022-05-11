@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Picker, Button, Toast } from 'antd-mobile-with-react18';
+import { Picker, Button, Toast } from 'antd-mobile';
 import { DemoBlock } from '../../../demos';
 import { basicColumns } from './columns-data';
 

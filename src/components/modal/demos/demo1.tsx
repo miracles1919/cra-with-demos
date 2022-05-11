@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, Space } from 'antd-mobile-with-react18';
+import { Button, Modal, Space } from 'antd-mobile';
 import { DemoBlock } from '../../../demos';
 
 export default () => {

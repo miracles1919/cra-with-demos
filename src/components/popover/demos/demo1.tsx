@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Popover, Button } from 'antd-mobile-with-react18';
+import { Popover, Button } from 'antd-mobile';
 import { DemoBlock } from '../../../demos';
-import { PopoverProps } from 'antd-mobile-with-react18/es/components/popover';
+import { PopoverProps } from 'antd-mobile/es/components/popover';
 
 export default () => {
   const [placement, setPlacement] =

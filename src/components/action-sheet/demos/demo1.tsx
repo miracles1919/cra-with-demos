@@ -5,12 +5,12 @@ import {
   Dialog,
   Space,
   Toast,
-} from 'antd-mobile-with-react18';
+} from 'antd-mobile';
 import { DemoBlock } from '../../../demos';
 import type {
   Action,
   ActionSheetShowHandler,
-} from 'antd-mobile-with-react18/es/components/action-sheet';
+} from 'antd-mobile/es/components/action-sheet';
 
 const actions: Action[] = [
   { text: '复制', key: 'copy' },

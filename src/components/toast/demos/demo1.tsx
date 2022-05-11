@@ -1,8 +1,8 @@
 import { FC, useEffect, useRef, useState } from 'react';
-import { Button, Space, Toast } from 'antd-mobile-with-react18';
+import { Button, Space, Toast } from 'antd-mobile';
 import { DemoBlock } from '../../../demos';
 import { UploadOutline } from 'antd-mobile-icons';
-import type { ToastHandler } from 'antd-mobile-with-react18/es/components/toast';
+import type { ToastHandler } from 'antd-mobile/es/components/toast';
 
 export default () => {
   const handler = useRef<ToastHandler>();
